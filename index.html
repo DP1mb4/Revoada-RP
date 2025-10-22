@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RevoadaRP</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/revo.css">
+  <link rel="shortcut icon" href="imgs/inicio/logo_pag.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+  <!-- Load (opcional) -->
+  <!-- <div class="load-container">
+    <img src="imgs/inicio/logo_original.png">
+    <span class="load-circle"></span>
+  </div> -->
+
+  <div class="container-all">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="width: 100%;">
+      <div class="container-fluid">
+        <!-- <a href="#" class="navbar-brand"><img src="imgs/nav/logo.png"></a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="collapse navbar-collapse container-nav-links" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#suport">Suporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">Revoada</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vips">VIPs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="about-container">
+      <img class="info-img" src="imgs/inicio/revoada.png">
+      <div class="about-text-container">
+        <div class="about-text">
+          <h1 class="about-title"></h1>
+        <p class="desc"></p>
+        <a href="mtasa://187.86.60.154:22850"><button class="about-button secondary-button">Entrar no server</button></a>
+        <a href="https://discord.gg/sQbfKDG2kH"><button class="primary-button about-disc-button">Acesse nosso Discord</button></a>
+        </div>
+      </div>
+      <div class="about-img-container">
+        <div class="about-img">
+          <img src="imgs/inicio/logo_original.png" style="display: none;" alt=""></div>
+        </div>
+    </div>
+  
+    <div class="news-container" id="news">
+      <h1 class="title new2">Novidades</h1>
+      <div class="news-content">
+  
+        <div class="news-cards-container" id="newsCards">
+          <div class="news-cards-content">
+  
+            <div class="card news-card active" id="card-0">
+              <img src="imgs/carrousel/delega.png" class="card-img-top news-card-img" alt="...">
+              <div class="card-body news-card-body">
+                <p class="card-text news-card-text">Estamos empolgados em anunciar a inauguração de uma nova delegacia em nosso 
+                  servidor de MTA! Este espaço trará uma experiência de roleplay policial 
+                  mais imersiva, com novas mecânicas e interações para os jogadores. <br>
+                  Eles estão de olho 👀
+                </p>
+              </div>
+            </div>
+  
+            <div class="card news-card" id="card-1">
+              <img src="imgs/carrousel/conce.png" class="card-img-top news-card-img" alt="...">
+              <div class="card-body news-card-body">
+                <p class="card-text news-card-text">Este espaço oferecerá uma variedade de veículos, 
+                  permitindo que os jogadores personalizem suas experiências e explorem o mundo de forma única.</p>
+              </div>
+            </div>
+  
+            <div class="card news-card" id="card-2">
+              <img src="imgs/carrousel/favela.png" class="card-img-top news-card-img" alt="...">
+              <div class="card-body news-card-body">
+                <p class="card-text news-card-text">Use as novas zonas de guerra para testar suas habilidades e estratégias em um ambiente de batalha intensa. 🧨</p>
+              </div>
+            </div>
+
+            <div class="card news-card" id="card-3">
+              <img src="imgs/carrousel/detran.png" class="card-img-top news-card-img" alt="...">
+              <div class="card-body news-card-body">
+                <p class="card-text news-card-text">Mantenha a documentação do seu veículo em dia! 🚘</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="news-buttons-container" id="newsButtons">
+            <h1 class="title new1">Novidades</h1>
+            <br>
+            <div class="news-buttons">
+              <button style="box-shadow: 0 4px 10px var(--primary_color);" class="news-btn-card primary-button" id="btn" data-selection="0">Nova Delegacia</button>
+              <button class="news-btn-card primary-button" id="btn" data-selection="1">Nova Concessionária</button>
+              <button class="news-btn-card primary-button" id="btn" data-selection="2">Zonas de Guerra</button>
+              <button class="news-btn-card primary-button" id="btn" data-selection="3">Novo Detran</button>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    
+    <div class="intro-container">
+        <div class="text-intro-container">
+          <h1 class="title">Sobre nós</h1>
+          <p class="desc">Prezamos sempre pela sua diversão, aplicando as regras para
+              obter uma boa experiência de RolePlay.</p>
+        </div>
+  
+        <div class="intro-content">
+          <iframe class="intro-video" src="https://www.youtube.com/embed/KG6RD13PRaQ?si=NvijENoY-UffunLp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="intro-discord" src="https://discordapp.com/widget?id=1249169541892673556&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+    </div>
+  
+    <div class="vip-container" id="vips">
+      <h1 class="title">VIPs</h1>
+      <div class="vip-content">
+  
+        <div class="vip-cards">
+          
+          <div class="vips">
+            <!-- VIP BRONZE -->
+            <div class="card vip-card">
+              <img src="imgs/vips2/vip-bronze.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">VIP Bronze</h5>
+                <p class="card-text vip-card-text">
+                  <button class="secondary-button bronze-button">Ver detalhes</button>
+                </p>
+              </div>
+            </div>
+
+            <!-- VIP PRATA -->
+            <div class="card vip-card">
+              <img src="imgs/vips2/vip-prata.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">VIP Prata</h5>
+                <p class="card-text vip-card-text">
+                  <button class="secondary-button silver-button">Ver detalhes</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="vips">
+            <!-- VIP Ouro -->
+            <div class="card vip-card">
+              <img src="imgs/vips2/vip_ouro.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">VIP Ouro</h5>
+                <p class="card-text vip-card-text">
+                  <button class="secondary-button gold-button">Ver detalhes</button>
+                </p>
+              </div>
+            </div>
+    
+            <!-- VIP REVOADA -->
+            <div class="card vip-card">
+              <img src="imgs/vips2/vip_revoada.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">VIP Revoada</h5>
+                <p class="card-text vip-card-text">
+                  <button class="secondary-button revo-button">Ver detalhes</button>
+                </p>
+              </div>
+            </div>
+          </div>
+  
+
+          <!-- Vip Descriptions -->
+          <div class="vip-description-container">
+            <div class="vip-description-content">
+              
+              <!-- VIP Bronze-desc -->
+              <div class="vip-desc hide" id="bronze">
+                <div class="first-part">
+                  <img src="imgs/vips2/vip-bronze.png">
+                  <div class="first-part-content">
+                    <span class="price">R$8,00</span>
+                    <a target="_blank" href="https://discord.com/channels/1249169541892673556/1273433728340856902" class="secondary-button">Comprar</a>
+                  </div>
+                </div>
+                <div class="second-part">
+                  <h2 class="title">Detalhes do VIP Bronze</h2>
+                  <p class="desc">Este é o nosso pacote mais básico, porêm com ele você já tem acesso a:</p>
+                  <div class="description">
+                    <ul>
+                      <li>Pack de armas (M4/AK-47, UZI, Shotgun, MP5 e Glock)</li>
+                      <li>Veículo Exclusivo</li>
+                      <li>Pegar 10k</li>
+                      <li>Colete 20%</li>
+                      <li>Fome/Sede 20%</li>
+                      <li>1 Skin Masculina</li>
+                      <li>1 Skin Feminina</li>
+                      <li>250K no momento de ativação</li>
+                      <li>10K de salário por hora jogada (após a ativação)</li>
+                    </ul>
+                  </div>
+                  <div class="banner">
+                    <img src="imgs/vips2/revo.gif" alt="Banner">
+                  </div>
+                </div>
+  
+                <button class="vip-close secondary-button"><span class="material-symbols-outlined">close</span></button>
+              </div>
+
+              <!-- VIP Prata-desc -->
+              <div class="vip-desc hide" id="silver">
+                <div class="first-part">
+                  <img src="imgs/vips2/vip-prata.png">
+                  <div class="first-part-content">
+                    <span class="price">R$15,00</span>
+                    <a target="_blank" href="https://discord.com/channels/1249169541892673556/1273433728340856902" class="secondary-button">Comprar</a>
+                  </div>
+                </div>
+                <div class="second-part">
+                  <h2 class="title">Detalhes do VIP Prata</h2>
+                  <p class="desc">Este é o nosso pacote intermediário, com ele você já tem acesso a:</p>
+                  <div class="description">
+                    <ul>
+                      <li>Pack de armas (M4/AK-47, UZI, Shotgun, MP5 e Glock)</li>
+                      <li>2 Veículos Exclusivos</li>
+                      <li>Pegar 30k</li>
+                      <li>Vida 50%</li>
+                      <li>Colete 50%</li>
+                      <li>Encher Fome/Sede (infinito)</li>
+                      <li>3 Skins Masculinas</li>
+                      <li>2 Skins Femininas</li>
+                      <li>600K no momento de ativação</li>
+                      <li>30K de salário por hora jogada (após a ativação)</li>
+                    </ul>
+                  </div>
+                  <div class="banner">
+                    <img src="imgs/vips2/revo.gif" alt="Banner">
+                  </div>
+                </div>
+  
+                <button class="vip-close secondary-button"><span class="material-symbols-outlined">close</span></button>
+              </div>
+
+              <!-- VIP Ouro-desc -->
+              <div class="vip-desc hide" id="gold">
+                <div class="first-part">
+                  <img src="imgs/vips2/vip_ouro.png">
+                  <div class="first-part-content">
+                    <span class="price">R$38,00</span>
+                    <a target="_blank" href="https://discord.com/channels/1249169541892673556/1273433728340856902" class="secondary-button">Comprar</a>
+                  </div>
+                </div>
+                <div class="second-part">
+                  <h2 class="title">Detalhes do VIP Ouro</h2>
+                  <p class="desc">Este é o nosso pacote intermediário, com ele você já tem acesso a:</p>
+                  <div class="description">
+                    <ul>
+                      <li>Pack de armas (M4/AK-47, UZI, Shotgun, MP5 e Glock)</li>
+                      <li>3 Veículos Exclusivos</li>
+                      <li>Pegar 50k</li>
+                      <li>Vida 100%</li>
+                      <li>Colete 100%</li>
+                      <li>Encher Fome/Sede (infinito)</li>
+                      <li>3 Skins Masculinas</li>
+                      <li>2 Skins Femininas</li>
+                      <li>Blindagem Infinita</li>
+                      <li>Veículo Colorido</li>
+                      <li>600K no momento de ativação</li>
+                      <li>30K de salário por hora jogada (após a ativação)</li>
+                    </ul>
+                  </div>
+                  <div class="banner">
+                    <img src="imgs/vips2/revo.gif" alt="Banner">
+                  </div>
+                </div>
+  
+                <button class="vip-close secondary-button"><span class="material-symbols-outlined">close</span></button>
+              </div>
+
+              <!-- VIP Revoada-desc -->
+              <div class="vip-desc hide" id="revo">
+                <div class="first-part">
+                  <img src="imgs/vips2/vip_revoada.png">
+                  <div class="first-part-content">
+                    <span class="price">R$50,00</span>
+                    <a target="_blank" href="https://discord.com/channels/1249169541892673556/1273433728340856902" class="secondary-button">Comprar</a>
+                  </div>
+                </div>
+                <div class="second-part">
+                  <h2 class="title">Detalhes do VIP Revoada</h2>
+                  <p class="desc">Este é o melhor pacote que oferecemos 😍, com ele você já tem acesso a:</p>
+                  <div class="description">
+                    <ul>
+                      <li>Pack de armas (M4/AK-47, UZI, Shotgun, MP5 e Glock)</li>
+                      <li>3 Veículos Exclusivos</li>
+                      <li>Helicóptero (Leia as regras)</li>
+                      <li>Pegar 100k</li>
+                      <li>Vida 100%</li>
+                      <li>Colete 100%</li>
+                      <li>Encher Fome/Sede (infinito)</li>
+                      <li>3 Skins Masculinas</li>
+                      <li>2 Skins Femininas</li>
+                      <li>Blindagem Infinita</li>
+                      <li>Veículo Colorido</li>
+                      <li>1 milhão no momento de ativação</li>
+                      <li>50K de salário por hora jogada (após a ativação)</li>
+                    </ul>
+                  </div>
+                  <div class="banner">
+                    <img src="imgs/vips2/revo.gif" alt="Banner">
+                  </div>
+                </div>
+  
+                <button class="vip-close secondary-button"><span class="material-symbols-outlined">close</span></button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+        <!-- CORPORAÇÕES -->
+        <div class="card mb-3 card-corp-container hide">
+          <img src="imgs/vips/corp/corp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tenha sua própria corporação</h5>
+            <p class="card-text">Você já imaginou ser o líder de uma grande corporação, moldando o futuro da cidade e 
+              dominando o cenário do RolePlay? Agora é a sua chance!</p>
+              <p>
+                <ul>
+                  <li><b>Controle Total:</b> Gerencie seus próprios negócios, contrate jogadores e crie uma equipe imbatível!</li>
+                  <li><b>Lucros Incríveis:</b> Com uma corporação, você terá acesso a oportunidades de lucro que vão além do comum.</li>
+                  <li><b>Reconhecimento:</b> Torne-se uma figura de destaque no servidor e ganhe respeito e notoriedade entre os jogadores.</li>
+                  <li><b>Diversão em Grupo:</b> Junte-se a amigos ou faça novos aliados enquanto trabalha em equipe para alcançar grandes objetivos!</li>
+                </ul>
+              </p>
+          </div>
+        </div>
+  
+  
+        <div class="discord-container hide">
+          <a href="https://discord.gg/DmR7mQHXbr" target="_blank" rel="noopener noreferrer"><img src="imgs/vips/discord_logo.png" alt=""></a>
+          <div class="discord-description">
+            <p class="desc">Interessado em algum dos produtos acima? Entre em nosso Discord e adquira já o seu!</p>
+            <a href="https://discord.gg/DmR7mQHXbr" target="_blank" rel="noopener noreferrer"><button class="discord-button">Garanta o Seu</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-container" id="suport">
+      <h1 class="title">Fale conosco</h1>
+      <p class="desc">Se você tiver alguma dúvida ou precisar de suporte, sinta-se livre
+          para nos mandar uma mensagem 🤗. Estamos aqui para ajudar!</p>
+      <div class="contact-content">
+
+           <div class="contact-first">
+              <img src="imgs/inicio/logo_original.png">
+           </div>
+        
+           <div class="contact-second">             
+              <form action="https://api.staticforms.xyz/submit" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" name="name" id="name" class="inp" placeholder="Nome">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="inp" placeholder="E-mail">
+                <label for="nome">Descrição</label>
+                <textarea name="message" id="desc" class="inp"></textarea>
+
+                <input type="text" name="honeypot" style="display:none">
+                <input type="hidden" name="accessKey" value="193cdb6b-eb79-468e-8a8f-54ef03346e85">
+                <input type="hidden" name="subject" value="Novo contato (fonte: site)" />
+                <input type="hidden" name="redirectTo" value="localhost: 8000">
+                <button class="secondary-button form-button" type="submit" value="Submit">Enviar</button>
+              </form>
+           </div>
+      </div>
+    </div>
+
+    <div class="form-succes-container hide">
+      <div class="form-succes">
+        <img src="imgs/inicio/logo_original.png">
+        <div class="load">
+          <div class="load-circle"></div>
+          <div class="load-circle"></div>
+          <div class="load-circle"></div>
+        </div>
+        <h2 class="hide suport-message">Mensagem enviada!</h2>
+      </div>
+    </div>
+
+  </div>
+
+    
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
